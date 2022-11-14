@@ -22,9 +22,12 @@ header > div:nth-child(1) {
     display: flex;
 }
 
-.flexbox > div {
-    border: 2px dashed black;
+.flexbox > .flexitem1, .flexitem2, .flexitem3 {
     font-size: 25px;
+}
+
+.flexbox > .flexitem1, .flexitem2, .flexitem3, .flexitem4 {
+    border: 2px dashed black;
 }
 
 .flexbox > .flexitem1 {
@@ -72,6 +75,93 @@ main > div:nth-child(1) {
     background-color: #ee82ee;
     height: 80%;
 }
+
+main > div:nth-child(2) {
+    background-color: #ffffff;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexitem5 {
+    width: 65%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+}
+
+.flexitem5 > div:nth-child(1) {
+    width: 60%;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.flexitem5 > div:nth-child(2) {
+    width: 40%;
+    background-color: #ffc0cb;
+    border: 2px dashed black;    
+}
+
+main > div:nth-child(3) {
+    background-color: #d3d3d3;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexitem6 {
+    width: 65%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.flexitem6 > div:nth-child(1) {
+    width: 60%;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.flexitem6 > div:nth-child(2) {
+    width: 40%;
+    background-color: #ffc0cb;
+    border: 2px dashed black;    
+}
+
+main > div:nth-child(4) {
+    background-color: #ffffff;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexitem7 {
+    width: 65%;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+}
+
+.flexitem7 > div:nth-child(1) {
+    width: 60%;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.flexitem7 > div:nth-child(2) {
+    width: 40%;
+    background-color: #ffc0cb;
+    border: 2px dashed black;    
+}
+
+
+
+
+
+
+
+
 
 
 
