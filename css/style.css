@@ -5,16 +5,17 @@
 }
 
 header {
-    height: 70px;
+    height: 80px;
     background-color: #add8e6;
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-header div {
+header > div:nth-child(1) {
     background-color: #daa520;
     height: 50px;
     margin: auto;
-    width: 60%;
+    width: 65%;
 }
 
 .flexbox {
@@ -30,14 +31,15 @@ header div {
     justify-content: flex-start;
     align-items: center;
     display: flex;
-    width: calc(100% / 3);
+    width: 20%;
+    padding-left: 10px;
 }
 
 .flexbox > .flexitem2 {
     justify-content: center;
     align-items: center;
     display: flex;
-    width: calc(100% / 3);
+    width: 60%;
 }
 
 .flexitem2 > ul {
@@ -46,16 +48,55 @@ header div {
 }
 
 .flexitem2 li {
-    padding: 5px;
+    padding: 8px;
 }
 
 .flexbox > .flexitem3 {
     justify-content: flex-end;
     align-items: center;
     display: flex;
-    width: calc(100% / 3);
-    flex-shrink: 1;
+    width: 20%;
+    padding-right: 10px;
 }
+
+main > div:nth-child(1) {
+    background-color: #00008b;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexitem4 {
+    width: 50%;
+    border: 2px dashed black;
+    background-color: #ee82ee;
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
