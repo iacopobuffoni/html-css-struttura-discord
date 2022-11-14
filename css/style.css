@@ -22,7 +22,7 @@ header > div:nth-child(1) {
     display: flex;
 }
 
-.flexbox > .flexitem1, .flexitem2, .flexitem3 {
+.flexbox > .flexitem1, .flexitem2, .flexitem3, .flexitem10, .flexitem11 {
     font-size: 25px;
 }
 
@@ -211,6 +211,34 @@ main > div:nth-child(6) {
     background-color: #ffc0cb;
     border: 2px dashed white;    
 }
+
+hr {
+    border: 1px solid white;
+}
+
+footer {
+    height: 100px;
+    background-color: #23272a;
+    align-items: flex-end;
+    justify-content: center;
+    align-items: f;
+}
+
+footer > div:nth-child(1) {
+    background-color: #7fffd4;
+    height: 75px;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexitem10, .flexitem11 {
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+
 
 
 
